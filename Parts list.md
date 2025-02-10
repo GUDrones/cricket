@@ -5,7 +5,7 @@
 | Quectel EC25-E                | 28        |           | 3.2cm x 2.9cm x 0.2cm |            |                                               |         | https://www.aliexpress.com/item/1005006319126849.html                                                              |
 | Raspberry Pi Camera Module v3 | 23        |           |                       |            |                                               |         | https://thepihut.com/products/raspberry-pi-camera-module-3?src=raspberrypi                                         |
 | USB-OTG adapter               | 2         |           |                       |            |                                               |         | https://thepihut.com/products/usb-to-microusb-otg-converter-shim                                                   |
-| Antenna                       |           |           |                       |            |                                               |         |                                                                                                                    |
+| Antenna                       | 1.93      |           |                       |            | RF Gen 1                                      |         | https://www.digikey.co.uk/en/products/detail/quectel/YFCA002AA/15706730                                            |
 | Micro SIM Card                |           |           |                       |            |                                               |         |                                                                                                                    |
 |                               |           |           |                       |            |                                               |         |                                                                                                                    |
 |                               |           |           |                       |            |                                               |         |                                                                                                                    |
@@ -52,6 +52,11 @@ The Quectel EC25-E modem is compatible with Vodafone, O2, EE and Three networks.
 
 
 # Antenna requirements
+Potential antenna:
+
+- Quectel YFCA002AA https://www.digikey.co.uk/en/products/detail/quectel/YFCA002AA/15706730
+- Bands supported: 20, 8, 3, minimum
+- Small size & low mass
 
 For optimal performance, the antenna should:
 

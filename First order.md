@@ -23,7 +23,7 @@ Reconmendation: Get 2.5x as many parts as we need for inexpensive(<5GBP) SMD com
 | ---- | ----- | ---- |
 | PCB | N/A | N/A |
 | ESP-32 | 12.94 | https://uk.rs-online.com/web/p/wi-fi-modules/2386920?gb=s |
-| Oscilator 40MHz | 3.29 | https://www.mouser.co.uk/ProductDetail/SiTime/SiT8924BA-73-33E-30.000000D?qs=dMZC7um9hO9nPH2tyiVgpA%3D%3D |
+| Oscilator 40MHz | 3.29 | https://www.mouser.co.uk/ProductDetail/SiTime/SIT8008BI-21-33E-40.000000G?qs=dMZC7um9hO%2FRrrde7BZEFg%3D%3D |
 | Oscilator 52MHz | 1.04 | https://www.mouser.co.uk/ProductDetail/SiTime/SiT8008AI-73-XXS-52.000000E?qs=sGAEpiMZZMtldj7qu1ydrULysZ4WjdCNKZefQOB8Uu6ScqudW8l0nw%3D%3D |
 | Antenna | 0.315 | https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450FM07A0029T?qs=Gd3Cm49KlLOPd5QDNED%252Bnw%3D%3D |
 | Tranciver IC | 5.01 | https://www.mouser.co.uk/ProductDetail/Semtech/SX1281IMLTRT?qs=5aG0NVq1C4xR1aFoShVcjg%3D%3D |

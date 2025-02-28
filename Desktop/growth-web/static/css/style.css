@@ -1,0 +1,53 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Logo */
+.logo {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e9ecef;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-dark:hover {
+    background-color: #1a1e21;
+    border-color: #1a1e21;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Form controls */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+/* Business items */
+.business-item {
+    transition: transform 0.2s;
+}
+
+.business-item:hover {
+    transform: translateY(-5px);
+} 

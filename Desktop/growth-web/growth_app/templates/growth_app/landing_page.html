@@ -1,0 +1,59 @@
+{% extends 'growth_app/base.html' %}
+
+{% block title %}Growth - A powerful solution for your business{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <!-- Hero Section -->
+    <div class="row py-5">
+        <div class="col-lg-7">
+            <h1 class="display-4 font-weight-bold">A powerful solution to analyze and grow your business. Fast!</h1>
+            <p class="lead mt-3 mb-4">Track performance, gain insights, and make data-driven decisions with our all-in-one business analytics platform.</p>
+            <div class="mt-4">
+                <a href="{% url 'register' %}" class="btn btn-dark px-4 py-2 mr-2">Get Started</a>
+                <a href="#" class="btn btn-outline-secondary px-4 py-2">Book Demo</a>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="bg-light rounded p-4" style="height: 200px;"></div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="bg-light rounded p-4" style="height: 200px;"></div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="bg-light rounded p-4" style="height: 200px;"></div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="bg-light rounded p-4" style="height: 200px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-5">
+        <h2 class="mb-3">What do we offer</h2>
+        <p class="text-muted">Subheading</p>
+        
+        <div class="row mt-4">
+            {% for i in '123456'|make_list %}
+            <div class="col-md-4 mb-4">
+                <div class="d-flex">
+                    <div class="mr-3">
+                        <div class="rounded-circle bg-dark text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <span>{{ forloop.counter }}</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>Title</h5>
+                        <p class="text-muted">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %} 

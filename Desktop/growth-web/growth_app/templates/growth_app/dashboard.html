@@ -1,0 +1,33 @@
+{% extends 'growth_app/base.html' %}
+
+{% block title %}Dashboard - Growth{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <h2 class="mb-4">Sales</h2>
+    <p class="text-muted">All Businesses Graphs</p>
+    
+    <div class="row mb-5">
+        {% for i in '1234'|make_list %}
+        <div class="col-md-6 mb-4">
+            <div class="bg-light p-3">
+                <img src="https://via.placeholder.com/400x200" alt="Sales Chart" class="img-fluid w-100">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <h2 class="mb-4">Predictions</h2>
+    <p class="text-muted">All Businesses Graphs</p>
+    
+    <div class="row">
+        {% for i in '1234'|make_list %}
+        <div class="col-md-6 mb-4">
+            <div class="bg-light p-3">
+                <img src="https://via.placeholder.com/400x200" alt="Prediction Chart" class="img-fluid w-100">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %} 

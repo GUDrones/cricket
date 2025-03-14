@@ -63,4 +63,7 @@
     MANUAL> api start vehicle_state.py
     If you get a warning that droneapi module has not loaded, you can do so manually in MAVProxy:
     MANUAL> module load droneapi.module.api
+
+    \*\*\*SOURCES FOR HELP
     https://www.linkedin.com/pulse/communication-between-drone-raspberry-pi-via-mavlink-yan-pang/
+    https://www.youtube.com/watch?v=BNzeVGD8IZI

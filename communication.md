@@ -50,3 +50,17 @@
     screen -d -m -s /bin/bash mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
     ) > /tmp/rc.log 2>&1
     exit 0
+14. Whenever the Raspberry Pi connects to the Pixhawk, three files will be created in the /home/pi/MyCopter/logs/date directory:
+    a) mav.parm : a text file with all the parameter values from the Pixhawk
+    b) flight.tlog : a telemetry log including the vehicles altitude, attitude, etc which can be opened using the mission planner (and a number of other tools)
+    c) flight.tlog.raw : all the data in the .tlog mentioned above plus any other serial data received from the Pixhawk which might include non-MAVLink formatted messages like startup strings or debug output
+15. sudo screen -x to connect to MAVProxy app that has automatically been started
+16. Install DroneKit
+    sudo apt-get install python-pip python-dev python-numpy python-opencv python-serial python-pyparsing python-wxgtk2.8 libxml2-dev libxslt-dev  
+    sudo pip install droneapi  
+    echo "module load droneapi.module.api" >> ~/.mavinit.scr
+17. Open MAVProxy terminal in location where DroneKit script is.
+    MANUAL> api start vehicle_state.py
+    If you get a warning that droneapi module has not loaded, you can do so manually in MAVProxy:
+    MANUAL> module load droneapi.module.api
+    https://www.linkedin.com/pulse/communication-between-drone-raspberry-pi-via-mavlink-yan-pang/
